@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <title>
+      404 Not Found - Error Page
+    </title>
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        html {
+            color: #fff;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+            background-color:#433D4A; /* grey-black */
+        }
+
+        h1 {
+            color: #F8F8FF; /* ghostwhite */
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        p {
+            margin: 0 auto;
+            width: 280px;
+        }
+
+        a { 
+            color: rgb(109, 194, 228); 
+            text-decoration:none; 
+        }
+
+        a:hover {
+            color: rgb(120, 228, 109);
+            text-shadow: 2px 2px 2px rgba(109, 194, 228, 0.5);
+        }
+
+        /* Page specific */
+        form[name=searchbox]{
+            margin:1rem 2rem;
+        }
+
+        form[name=searchbox] input[type=submit]{
+            font-size:small;
+        }
+
+        @media only screen and (max-width: 280px) {
+
+            body, p {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+
+        }
+    </style>
+  </head>
+  <body id="page-404">
+  	<h1>Page Not Found</h1>
+    <p>
+      Sorry, that page isn't here, feel free to search the site:
+    </p>
+    <form action="http://www.google.com/search" name="searchbox" method="get"> 
+      <input type="hidden" name="hl" value="en"> 
+      <input type="hidden" name="ie" value="ISO-8859-1"> 
+      <input type="hidden" name="sitesearch" value="ninjawars.net"> 
+      <input maxlength="256" size="40" name="q" value=""> 
+      <input type="submit" value="search the site" name="btnG"> 
+    </form>
+    <div>Return to <a href="/">the homepage</a></div>
+    <div id='support'>or <a href='http://www.ninjawars.net/staff' target='main'>get help on the staff page</a></div>
+  </body>
+</html>
