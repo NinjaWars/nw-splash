@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'No-op for now'",
-    "build": "cp -r www build"
+    "build": "rm -rf build/* && cp -r www build"
   },
   "repository": {
     "type": "git",
