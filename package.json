@@ -1,0 +1,26 @@
+{
+  "name": "nw-splash",
+  "version": "0.1.0",
+  "description": "Static site for the https://splash.ninjawars.net splash page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No-op for now'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NinjaWars/nw-splash.git"
+  },
+  "keywords": [
+    "ninjawars",
+    "web",
+    "game",
+    "splash",
+    "page"
+  ],
+  "author": "Roy Ronalds",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NinjaWars/nw-splash/issues"
+  },
+  "homepage": "https://github.com/NinjaWars/nw-splash#readme"
+}
