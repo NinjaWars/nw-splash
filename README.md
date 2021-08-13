@@ -2,7 +2,7 @@
 
 [![Codeship Status for NinjaWars/nw-splash](https://app.codeship.com/projects/76c91570-9a1a-0137-6476-326b4cf647ab/status?branch=master)](https://app.codeship.com/projects/358145)
 
-New splash page for the [NinjaWars.net](http://www.ninjawars.net) NinjaWars.net web game.
+Splash page for the [NinjaWars.net](http://www.ninjawars.net) NinjaWars.net web game.
 
 # Install
 
@@ -10,8 +10,7 @@ None needed, raw html
 
 # Serve
 
-    npm install -g serve
-    serve www
+    yarn start
     
 # Deploy
 
