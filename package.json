@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'No-op for now'",
-    "build": "rm -rf build/* && cp -r www build"
+    "build": "rm -rf build && cp -r www build",
+    "serve": "npx serve ./build -p 9595",
+    "start": "yarn build && yarn serve",
+    "browse": "xdg-open http://localhost:9595"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/NinjaWars/nw-splash/issues"
   },
-  "homepage": "https://github.com/NinjaWars/nw-splash#readme"
+  "homepage": "https://github.com/NinjaWars/nw-splash#readme",
+  "devDependencies": {
+  }
 }
