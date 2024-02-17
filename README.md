@@ -1,7 +1,5 @@
 # Splash.ninjawars.net
 
-[![Codeship Status for NinjaWars/nw-splash](https://app.codeship.com/projects/76c91570-9a1a-0137-6476-326b4cf647ab/status?branch=master)](https://app.codeship.com/projects/358145)
-
 Splash page for the [NinjaWars.net](http://www.ninjawars.net) NinjaWars.net web game.
 
 # Install
